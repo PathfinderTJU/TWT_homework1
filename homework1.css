@@ -1,0 +1,104 @@
+/*Homework of Front End*/
+/*Xingyu Liu, 2019.3.21 22:51(GMT+8)*/
+
+body{
+    background-color: #222222;
+    margin: 10%;
+    font-family: Microsoft Yahei;
+    color: #CCCCCC;
+}
+
+.headline{
+    margin: 15px;
+    padding: 0px;
+    font-size: 50px;
+}
+
+.outside_block{
+    width: 650px;
+    height: 600px;
+    float: left;
+}
+
+.wide_block{
+    width: 600px;
+    margin: 15px;
+    padding: 10px;
+    height: 250px;
+    float: left;
+    background-color: #333333;
+    box-shadow: 10px 10px 5px #1A1A1A;
+}
+
+.right_block{
+    width: 200px;
+    height: 530px;
+    margin: 15px;
+    padding: 20px;
+    float: left;
+    background-color: #333333;
+    box-shadow: 10px 10px 5px #1A1A1A;
+}
+
+.title_block{
+    margin: 15px 20px 15px 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.content1_wide_block{
+    margin: 5px 20px 15px 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+}
+
+.content2_wide_block{
+    margin: 5px 20px 5px 20px;
+    padding: 0px 20px 0px 20px;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.right_list{
+    line-height: 300%;
+    font-size: 14px;
+}
+
+.narrow_block{
+    width: 275px;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+    height: 250px;
+    background-color: #333333;
+    box-shadow: 10px 10px 5px #1A1A1A;
+}
+
+.bottom_content{
+    margin: 15px;
+    padding: 20px;
+    clear: both;
+    font-size: 12px;
+}
+
+/*media*/
+
+@media (max-width: 860px){
+    .outside_block{
+        width: 300px;
+        height: 1100px;
+    }
+
+    .wide_block{
+        width: 300px;
+        height: 400px;
+    }
+
+    .narrow_block{
+        width: 300px;
+    }
+
+    .right_block{
+        width: 280px;
+    }
+}
